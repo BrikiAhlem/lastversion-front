@@ -1,0 +1,14 @@
+.custom-card {
+    background-color: #f0f0f0; /* Couleur d'arrière-plan */
+    border: 2px solid #000; /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    margin-bottom: 20px; /* Espacement par rapport aux autres éléments */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px); /* Animation au survol */
+    transition: transform 0.3s ease; /* Transition fluide */
+  }
+  

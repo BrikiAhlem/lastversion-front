@@ -1,0 +1,55 @@
+.card-custom {
+    max-width: 22rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    .card-image {
+        height: 100%; /* Ajuste la hauteur de l'image à 100% de la hauteur de son conteneur */
+        width: 100%; /* Ajuste la largeur de l'image à 100% de la largeur de son conteneur */
+        object-fit: cover; /* Redimensionne l'image pour qu'elle remplisse entièrement son conteneur en conservant ses proportions */
+      }
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .btn-custom {
+    margin: 0.25rem;
+  }
+  
+  .modal-custom {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+  }
+  
+  .modal-dialog-custom {
+    max-width: 500px;
+    margin: 1.75rem auto;
+  }
+  
+  .pagination {
+    margin-top: 1rem;
+  }
+  
+  .pagination .page-link {
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    margin-right: 0.5rem;
+  }
+  
+  .pagination .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #e9ecef;
+  }
+  
